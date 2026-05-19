@@ -1,0 +1,6 @@
+{
+  "upsellAddButton": "Ajouter",
+  "upsellAddError": "Impossible d'ajouter ce produit. Réessayez.",
+  "upsellAddNotSupported": "L'ajout de produits n'est pas pris en charge dans ce paiement.",
+  "upsellEmpty": "Aucune suggestion pour le moment. Ajoutez d'autres produits à la collection upsell qui ne sont pas déjà dans le panier."
+}

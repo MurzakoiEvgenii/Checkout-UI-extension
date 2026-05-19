@@ -1,0 +1,17 @@
+{
+  "heading": "Message from the store",
+  "orderCommentLabel": "Order comment",
+  "saveComment": "Save comment",
+  "clearComment": "Clear",
+  "savedComment": "Your saved comment",
+  "clickToCount": "Click me",
+  "clickCount": "Button clicked {{count}} times",
+  "commentSaved": "Comment saved.",
+  "commentEmpty": "Please enter a comment first.",
+  "saveFailed": "Could not save your comment. Try again.",
+  "noteNotSupported": "Order notes cannot be updated in this checkout (for example, express checkout).",
+  "upsellAddButton": "Add",
+  "upsellAddError": "Could not add this product. Try again.",
+  "upsellAddNotSupported": "Adding products is not supported in this checkout.",
+  "upsellEmpty": "No extra products to suggest right now. Add more items to the upsell collection that are not already in the cart."
+}

@@ -1,0 +1,31 @@
+# Upsell checkout UI extension (separate entry in checkout editor).
+api_version = "2026-04"
+
+[[extensions]]
+name = "Upsell offers"
+handle = "checkout-upsell"
+type = "ui_extension"
+uid = "b8e4f2a1-9c3d-4e5f-a6b7-8d9e0f1a2b3c"
+
+[[extensions.targeting]]
+module = "./src/Upsell.jsx"
+target = "purchase.checkout.block.render"
+
+[[extensions.targeting]]
+module = "./src/Upsell.jsx"
+target = "purchase.checkout.cart-line-list.render-after"
+
+[[extensions.targeting]]
+module = "./src/Upsell.jsx"
+target = "purchase.checkout.reductions.render-before"
+
+[[extensions.targeting]]
+module = "./src/Upsell.jsx"
+target = "purchase.checkout.footer.render-after"
+
+[extensions.capabilities]
+api_access = true
+
+[[extensions.metafields]]
+namespace = "$app"
+key = "upsell_config"

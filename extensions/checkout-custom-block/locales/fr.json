@@ -1,0 +1,17 @@
+{
+  "heading": "Message de la boutique",
+  "orderCommentLabel": "Commentaire de commande",
+  "saveComment": "Enregistrer le commentaire",
+  "clearComment": "Effacer",
+  "savedComment": "Votre commentaire enregistré",
+  "clickToCount": "Cliquez ici",
+  "clickCount": "Bouton cliqué {{count}} fois",
+  "commentSaved": "Commentaire enregistré.",
+  "commentEmpty": "Veuillez saisir un commentaire.",
+  "saveFailed": "Impossible d'enregistrer le commentaire. Réessayez.",
+  "noteNotSupported": "Les notes de commande ne peuvent pas être modifiées pour cette commande (par ex. paiement express).",
+  "upsellAddButton": "Ajouter",
+  "upsellAddError": "Impossible d'ajouter ce produit. Réessayez.",
+  "upsellAddNotSupported": "L'ajout de produits n'est pas pris en charge dans ce paiement.",
+  "upsellEmpty": "Aucune suggestion pour le moment. Ajoutez d'autres produits à la collection upsell qui ne sont pas déjà dans le panier."
+}

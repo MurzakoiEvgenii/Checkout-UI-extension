@@ -1,0 +1,40 @@
+# Learn more about configuring your checkout UI extension:
+# https://shopify.dev/docs/api/checkout-ui-extensions/latest/configuration
+
+# The version of APIs your extension will receive. Learn more:
+# https://shopify.dev/docs/api/usage/versioning
+api_version = "2026-04"
+
+[[extensions]]
+name = "checkout-custom-block"
+handle = "checkout-custom-block"
+type = "ui_extension"
+uid = "289f0543-ca35-c1e1-6b27-6374947af52e9885e5ff"
+
+# Controls where in Shopify your extension will be injected,
+# and the file that contains your extension’s source code. Learn more:
+# https://shopify.dev/docs/api/checkout-ui-extensions/latest/extension-targets-overview
+
+[[extensions.targeting]]
+module = "./src/Checkout.jsx"
+target = "purchase.checkout.block.render"
+
+[extensions.capabilities]
+api_access = true
+
+# Shop metafields set from the embedded admin app.
+[[extensions.metafields]]
+namespace = "$app"
+key = "checkout_block_text"
+
+[[extensions.metafields]]
+namespace = "$app"
+key = "order_comment_label"
+
+[[extensions.metafields]]
+namespace = "$app"
+key = "order_comment_help"
+
+[[extensions.metafields]]
+namespace = "$app"
+key = "upsell_config"

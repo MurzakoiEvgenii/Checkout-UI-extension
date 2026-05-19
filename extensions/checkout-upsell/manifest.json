@@ -1,0 +1,6 @@
+{
+  "purchase.checkout.block.render": {},
+  "purchase.checkout.cart-line-list.render-after": {},
+  "purchase.checkout.reductions.render-before": {},
+  "purchase.checkout.footer.render-after": {}
+}

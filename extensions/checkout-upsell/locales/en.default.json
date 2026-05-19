@@ -1,0 +1,6 @@
+{
+  "upsellAddButton": "Add",
+  "upsellAddError": "Could not add this product. Try again.",
+  "upsellAddNotSupported": "Adding products is not supported in this checkout.",
+  "upsellEmpty": "No extra products to suggest right now. Add more items to the upsell collection that are not already in the cart."
+}

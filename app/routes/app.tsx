@@ -25,6 +25,10 @@ export default function App() {
           Home
         </Link>
         <Link to="/app/branding">Checkout Branding</Link>
+        <Link to="/app/checkout-block">Checkout block</Link>
+        <Link to="/app/order-comment">Order comment</Link>
+        <Link to="/app/upsell">Upsell</Link>
+        <Link to="/app/order-data">Order data</Link>
         <Link to="/app/additional">Additional page</Link>
       </NavMenu>
       <Outlet />

@@ -21,7 +21,31 @@ api_version = "2026-07"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "read_checkout_branding_settings,write_checkout_branding_settings,write_products,read_files,write_files"
+scopes = "read_checkout_branding_settings,write_checkout_branding_settings,write_products,read_products,read_files,write_files,read_orders"
+
+[shop.metafields.app.checkout_block_text]
+type = "single_line_text_field"
+name = "Checkout block text"
+description = "Message shown in the checkout custom UI block"
+access.admin = "merchant_read_write"
+
+[shop.metafields.app.order_comment_label]
+type = "single_line_text_field"
+name = "Order comment field label"
+description = "Label for the order comment field in checkout"
+access.admin = "merchant_read_write"
+
+[shop.metafields.app.order_comment_help]
+type = "single_line_text_field"
+name = "Order comment help text"
+description = "Helper text under the order comment field in checkout"
+access.admin = "merchant_read_write"
+
+[shop.metafields.app.upsell_config]
+type = "json"
+name = "Upsell configuration"
+description = "Checkout upsell settings (enabled, placement, collection, mode)"
+access.admin = "merchant_read_write"
 
 [auth]
 redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
